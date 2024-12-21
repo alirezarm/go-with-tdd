@@ -1,4 +1,4 @@
-# go-with-tdd
+# Go with TDD
 Learn Go with TDD
 
 

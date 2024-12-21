@@ -1,4 +1,11 @@
-# Key points
+# Hello World
+
+## Eequirements
+
+Write hello world to a recipient and in a specified language.  
+
+
+## Summary of key points
 
 * Go program have a `main` package with a `main` func in it
 * Keyword `func` defines a function
