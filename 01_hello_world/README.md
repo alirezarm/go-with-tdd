@@ -14,6 +14,7 @@ Write hello world to a recipient and in a specified language.
 * Go test files should be names as `xxx_test.go`
 * Name of test func within a Go test file should start with `Test`, e.g., `TestHello`
 * Test func gets one argument `t *testing.T` (import testing package i.e. `import "testing"`) where `t` is the hook to the testing framework allowing us to use things like `t.Errorf`
+* Use `go test` to run the test
 * to access Go docs from commane line use `go doc fmt`
 * Constants are defined using `const` keyword, e.g., `const helloPrefix = "Hello, "`
 * Use `t.Run` to write subtests to write tests describing different scenarios
