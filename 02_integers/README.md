@@ -10,4 +10,5 @@ Writing and add functions
 * We can add `Testable Examples` using functions with name starting with `Example` in go test file. Example functions are compiled together with tests, thus the documentation's examples always reflect current code behavior. To see examples while running test:
     * Install `pkgsite` package: `go install golang.org/x/pkgsite/cmd/pkgsite@latest`
     * Add it to your path: e.g., on MacOS, `export PATH=$HOME/go/bin:$PATH`
+    * Use `go test -v` to see examples are run with tests
     * The example will always will be always compilled but to execute it, add a special comment line at the end of the example func, e.g., `// Output: 9`
