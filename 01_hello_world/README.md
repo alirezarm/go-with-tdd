@@ -1,6 +1,6 @@
 # Hello World
 
-## Eequirements
+## Requirements
 
 Write hello world to a recipient and in a specified language.  
 
