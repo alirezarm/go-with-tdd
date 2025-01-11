@@ -17,3 +17,7 @@
 * We define `time.Sleep` dependency as an interface
     * We use `time.Sleep` in `main` and a spy sleeper in test 
     * The spy sleeper is a type which implement `Sleep` interface
+* Spies are a kind of mock which can record how a dependency is used, e.g., arguments sent in, number of times it has been called, etc
+* If lots of things have to be mocked to test a functionality, it is a sign that the functionality is doing too many things (and thus too many dependencies to mock), so break the module apart so it does less
+* Test useful behaviour not every implementation detail (except they are really important)
+* Do not test private functions as they are implementation detail to support public behaviour. Private functions are normally "less stable" and we don't want to couple our tests to them
