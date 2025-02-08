@@ -8,7 +8,7 @@
 
 * If we write perimeter/area functions providing width and height without no notion of rectangle, one might mistakenly provide width and height of a triangle and get the wrong answer
     * One solution is to use specific names, e.g., `RectangleArea`
-    * A btter solution is to create a type representing rectangle to encapsulate the concept of rectangle. We can create a type using `struct` which is basically a named collection of fields to store data
+    * A better solution is to create a type representing rectangle to encapsulate the concept of rectangle. We can create a type using `struct` which is basically a named collection of fields to store data
 * Define a type using `struct`, e.g., `type Rectangle struct {}`
     * `Rectangle` then can be passed to a func as a type, e.g., `func Perimeter(rectangle Rectangle) {}`
 * Use of `%g` rather than `%f` will print a more precise decimal number in the error message
